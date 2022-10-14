@@ -4,7 +4,7 @@ Aufgabe: <01 Zufallsgedicht>
 Name: <Simon Bachhäubl>
 Matrikel: <265386>
 Datum: <14.10.2022>
-Quellen: <inverted Classroom / W3S>
+Quellen: <inverted Classroom / W3S / Bastian Aberle -> Orientierung>
 */
 var Gedicht;
 (function (Gedicht) {
