@@ -1,3 +1,10 @@
+/*
+Aufgabe: <Aufgabe2_EventInspector>
+Name: <Simon Bachhaeubl>
+Matrikel: <265386>
+Datum: <21.10.2022>
+Quellen: <Inspiration/Hilfe --> Paula Jordans / Dennis Grützmacher >
+*/
 namespace Aufgabe2_EventInspector
 {
     
@@ -30,7 +37,7 @@ namespace Aufgabe2_EventInspector
     {
         x = _event.x;
         y = _event.y;
-        infoBox.innerHTML = "  x Position: " + x + " px <br>   y Position : " + y + " px <br>   Target: " + _event.target;
+        infoBox.innerHTML = "  x Koordinate: " + x + " px <br>   y Koordinate : " + y + " px <br>   Target: " + _event.target;
         infoBox.style.left = _event.pageX + 10 + "px";
         infoBox.style.top = _event.pageY + 20 + "px";
     }

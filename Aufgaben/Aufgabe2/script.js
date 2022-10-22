@@ -1,4 +1,11 @@
 "use strict";
+/*
+Aufgabe: <Aufgabe2_EventInspector>
+Name: <Simon Bachhaeubl>
+Matrikel: <265386>
+Datum: <21.10.2022>
+Quellen: <Inspiration/Hilfe --> Paula Jordans / Dennis Grützmacher >
+*/
 var Aufgabe2_EventInspector;
 (function (Aufgabe2_EventInspector) {
     let div1 = document.getElementById("div1");
@@ -24,7 +31,7 @@ var Aufgabe2_EventInspector;
     function setInfoBox(_event) {
         x = _event.x;
         y = _event.y;
-        infoBox.innerHTML = "  x Position: " + x + " px <br>   y Position : " + y + " px <br>   Target: " + _event.target;
+        infoBox.innerHTML = "  x Koordinate: " + x + " px <br>   y Koordinate : " + y + " px <br>   Target: " + _event.target;
         infoBox.style.left = _event.pageX + 10 + "px";
         infoBox.style.top = _event.pageY + 20 + "px";
     }
