@@ -30,6 +30,6 @@ function edit() {
     console.log("bearbeiten");
 }
 function deleteItem() {
-    console.log("Eintrag löschen");
+    console.log("löschen");
 }
 //# sourceMappingURL=script.js.map

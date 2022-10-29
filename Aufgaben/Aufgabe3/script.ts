@@ -34,5 +34,5 @@ namespace Einkaufsliste {
         console.log("bearbeiten");
     }
     function deleteItem(): void {
-        console.log("Eintrag löschen");
+        console.log("löschen");
     }
