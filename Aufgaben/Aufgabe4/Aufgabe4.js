@@ -86,7 +86,7 @@ var shoppinglistA04;
         newEdit.style.left = "165px";
         //neues Mülleimer icon
         let newTrash = document.createElement("div");
-        newTrash.innerHTML = "<img id='" + amountItems + "' " + "src='./trash-solid.svg'>";
+        newTrash.innerHTML = "<img id='" + amountItems + "' " + "Trash.svg'>";
         newElement.appendChild(newTrash);
         newTrash.className = "trash" + amountItems;
         //styled das erzeugte Element

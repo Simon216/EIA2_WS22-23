@@ -114,7 +114,7 @@ namespace shoppinglistA04 {
 
         //neues Mülleimer icon
         let newTrash: HTMLDivElement = document.createElement("div");
-        newTrash.innerHTML = "<img id='" + amountItems + "' " + "src='./trash-solid.svg'>";
+        newTrash.innerHTML = "<img id='" + amountItems + "' " + "Trash.svg'>";
         newElement.appendChild(newTrash);
         newTrash.className = "trash" + amountItems;
         //styled das erzeugte Element
