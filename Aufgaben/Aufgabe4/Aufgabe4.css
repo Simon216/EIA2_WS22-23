@@ -1,0 +1,102 @@
+.container {
+        width: 500px;
+        height: 1000px;
+        background-color: darkgrey;
+        border: rgb(70, 65, 65) solid;
+        position: relative;
+        margin: auto;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-ifamily: Arial, Helvetica, sans-serif;
+    positon: relative;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-ifamily: Arial, Helvetica, sans-serif;
+    positon: relative;
+    text-align: center;
+}
+
+h2:hover {
+    color: red;
+}
+
+h3 {
+    font-size: 20px;
+    font-ifamily: Arial, Helvetica, sans-serif;
+    positon: relative;
+    text-align: left;
+    
+}
+
+fieldset {
+    border: none;
+    position: relative;
+    top: 20px;
+}
+
+textarea {
+    width: 460px;
+}
+
+.item {
+    width: 460px;
+}
+
+.amount {
+    width: 460px;
+}
+
+#output {
+    position: relative;
+    left: 75px;
+    top: -20px;
+    text-align: center;
+    border-top: black solid;
+    padding-top: 25px;
+    width: 350px;
+    height: 350px;
+    float: left;
+}
+
+i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+i:hover {
+    color: red;
+}
+
+img:hover {
+    color: red;
+}
+
+form {
+    display: grid;
+}
+
+.nextBuy {
+    position: relative;
+    top: -42px;
+    left: 180px;
+}
+
+.comment {
+    position: relative;
+    top: -50px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5
+    );
+}
